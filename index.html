@@ -25,7 +25,11 @@
 
 
     <div class="container" style="margin-top: 60px;">
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> version_1
         <div class="row justify-content-center">
 
             <div class="card border-dark justify-content-center" style="width: 25rem; margin: 10px;">
@@ -38,23 +42,41 @@
                     <form>
                         <div class="form-group">
                             <label for="user_input_width">Enter Width</label>
+<<<<<<< HEAD
                             <input class="form-control" id="user_input_width" type="text"  />  
+=======
+                            <input class="form-control" id="user_input_width" type="number" required/>  
+>>>>>>> version_1
                             <small class="form-helper text-muted">recommended width: 150</small>
                         </div>
                       
                         <div class="form-group">
                             <label for="user_input_height">Enter Height</label>
+<<<<<<< HEAD
                             <input  class="form-control" id="user_input_height" type="text" /> 
+=======
+                            <input  class="form-control" id="user_input_height" type="number" required/> 
+>>>>>>> version_1
                             <small class="form-helper text-muted">recommended height: 150</small>
                         </div>
     
                         <div class="form-group">
                             <label for="user_input_data">Enter Data</label>
+<<<<<<< HEAD
                             <input class="form-control" id="user_input_data" type="text"  /> 
                             <small class="form-helper text-muted">URL to Portfolio/YouTube, etc</small>
                         </div>
             
                         <button class="btn btn-primary">Generate</button>
+=======
+                            <input class="form-control" id="user_input_data" type="text"  required/> 
+                            <small class="form-helper text-muted">URL to Portfolio/YouTube, etc</small>
+                        </div>
+            
+                        <button class="btn btn-primary" onclick="generateURL(document.getElementById('user_input_width').value, document.getElementById('user_input_height').value, document.getElementById('user_input_data').value)">
+                            Generate
+                        </button>
+>>>>>>> version_1
                     </form>
                 </div>
 

@@ -1,6 +1,6 @@
 # QR Code Generator
 
-![QR_code_generator](https://github.com/randiltennakoon/QR_code_generator/blob/version_1/images/page1.png?raw=true)
+![QR_code_generator](https://github.com/randiltennakoon/QR_code_generator/blob/master/images/page1.png?raw=true)
 
 * QR Code Generator designed using the Google QR Codes.
 
